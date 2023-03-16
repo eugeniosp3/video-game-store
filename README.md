@@ -8,7 +8,12 @@
 # DESCRIPTION 
 This website is an ecommerce attempt at a video game general store. By **double clicking** on the item, it will prompt you asking if you want to add it to cart. Then it will display how many items are in your cart and it will reduce the cost of the item from your amount in your coin bag. 
 ChatGPT 3.5 was used to create the descriptions, the cost, stats and item type in the json containing the items. 
-All images were obtained from freepik.com free video game assets.
+All images were obtained from freepik.com free video game assets. 
+
+If you look at the breakdown of languages, you see there is a jupyter notebook. This is in the `video-game-store/public/itemPhotos/` directory and it was used to create a path I could put into the json without doing it manually. I left the code in case anyone is curious and wants to reuse it. It is written in Python.
+
+![image](https://user-images.githubusercontent.com/64187887/225639772-2e1efc77-34c1-42c1-a935-5418ef24c7e0.png)
+
 
 # PREVIEW 
 ![image](https://user-images.githubusercontent.com/64187887/225635043-0fa73025-c50f-4229-8e97-d7f30862d441.png)
