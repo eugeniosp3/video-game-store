@@ -4,6 +4,10 @@
 <br>**Gaps**: I still have gaps in my knowledge of CSS and responsive design. I am improving, but there is still work to be done. I am also learning quite a bit of JS but need to continue improving. My understanding of everything is increasing but I need to keep coding to fully understand more of the advanced React hooks. I liked deploying to Vercel. It is really quick and easy to get your code up and running for someone to preview. I compare this to what I previously have done using docker, ECR, ECS, etc and this was a world over easier.
 <br>**Live Site**: https://video-game-store-omega.vercel.app/
 
+<h3>Preview</h3>
+<b>Live Site</b>: https://video-game-store-omega.vercel.app/
+
+![image](https://user-images.githubusercontent.com/64187887/225635043-0fa73025-c50f-4229-8e97-d7f30862d441.png)
 
 # DESCRIPTION 
 This website is an ecommerce attempt at a video game general store. By **double clicking** on the item, it will prompt you asking if you want to add it to cart. Then it will display how many items are in your cart and it will reduce the cost of the item from your amount in your coin bag. 
@@ -26,11 +30,6 @@ allPics.apply(lambda x: \
 
 ![image](https://user-images.githubusercontent.com/64187887/225639772-2e1efc77-34c1-42c1-a935-5418ef24c7e0.png)
 
-
-<h3>Preview</h3>
-<b>Live Site</b>: https://video-game-store-omega.vercel.app/
-
-![image](https://user-images.githubusercontent.com/64187887/225635043-0fa73025-c50f-4229-8e97-d7f30862d441.png)
 
 
 <h3>Data</h3>
