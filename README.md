@@ -1,3 +1,8 @@
+Author: Gino P
+Tech: NextJS 
+Purpose: Learning and for fun
+Gaps: I still have gaps in my knowledge of CSS and responsive design. I am improving, but there is still work to be done. I am also learning quite a bit of JS but need to continue improving. My understanding of everything is increasing but I need to keep coding to fully understand more of the advanced React hooks.
+
 #DESCRIPTION 
 This website is an ecommerce attempt at a video game general store. By **double clicking** on the item, it will prompt you asking if you want to add it to cart. Then it will display how many items are in your cart and it will reduce the cost of the item from your amount in your coin bag. 
 ChatGPT 3.5 was used to create the descriptions, the cost, stats and item type in the json containing the items. 
@@ -40,7 +45,9 @@ The item descriptions, prices, stats are included in the file itemData.js as a j
    },...
    ```
 
-THINGS TO ADD 
+# THINGS TO ADD 
 Interactive table that shows items in cart
 Buttons to remove items from cart, from this table
 Text letting the user know they need to double click somewhere to add the item to cart
+Fix the scrollbar on non Mac computers - it looks ugly
+Responsive to any viewport/resolution 
