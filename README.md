@@ -67,11 +67,11 @@ export const itemJSON = [
    ```
 
 <h3>Roadmap</h3>
-```python
-1. Interactive table that shows items in cart
-2. <br>Buttons to remove items from cart, from this table
-3. <br>Text letting the user know they need to double click somewhere to add the item to cart
-4. <br>Fix the scrollbar on non Mac computers - it looks ugly
-5. <br>Responsive to any viewport/resolution 
 
-```
+1. Interactive table that shows items in cart
+<br>2. Buttons to remove items from cart, from this table
+<br>3. Text letting the user know they need to double click somewhere to add the item to cart
+<br>4. Fix the scrollbar on non Mac computers - it looks ugly
+<br>5. Responsive to any viewport/resolution 
+
+
