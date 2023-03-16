@@ -1,0 +1,122 @@
+html,
+body {
+  position: fixed;
+  height: 100vh;
+  width: 100vh;
+  background: linear-gradient(to bottom, #000000 70%, #2c0145);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Usual", sans-serif;
+}
+
+.mainAppDiv {
+  width: 80%; /* adjust as needed */
+  transition: margin-left 0.25s ease; /* added transition */
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 850px) {
+  .mainAppDiv {
+    margin-left: -1%; /* shift left by 20% */
+  }
+}
+
+.searchBar {
+  /* outline: 1px solid red; */
+  width: 315px;
+  height: 40px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchInput {
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  border: transparent;
+  border-bottom: 1px solid #ff416c;
+  background-color: transparent;
+  color: #ffffff;
+  padding-left: 20px;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.rightDiv {
+  display: flex;
+  flex-direction: column;
+  /* outline: 1px solid red; */
+  /* margin-top: -90px; */
+  margin-left: -30px;
+  width: 600px;
+  height: 955px;
+}
+
+.cart {
+  display: flex;
+  /* outline: 1px solid red; */
+  justify-content: flex-end;
+  height: 75px;
+  width: 500px;
+}
+
+.cartHolder {
+  display: flex;
+  flex-direction: row;
+  cursor: crosshair;
+}
+
+.cartAmount {
+  color: #826c9b;
+  margin-top: 27.5px;
+  margin-left: 12px;
+  font-size: 14px;
+}
+
+.cartAmount:hover {
+  color: #06d560;
+  height: 20px;
+}
+
+.wallet {
+  display: flex;
+}
+.coinImage {
+  margin-top: 18px;
+}
+
+.coinage {
+  color: #83699f;
+  margin-top: 27.5px;
+  margin-left: 12px;
+  font-size: 14px;
+  cursor: crosshair;
+}
+
+.coinage:hover {
+  color: #d5af06;
+  height: 20px;
+}
+
+.itemPresentation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* outline: 1px solid red; */
+  height: 625px;
+  width: 500px;
+}
+
+.cartControls {
+  display: flex;
+  flex-direction: column;
+  /* outline: 1px solid red; */
+  height: 255px;
+  width: 500px;
+}

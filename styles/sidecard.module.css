@@ -1,0 +1,206 @@
+.sidecardMain {
+  height: 880px;
+  width: 360px;
+  border-radius: 11px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  /* padding-top: 10px; */
+  overflow-y: scroll;
+  /* color: rgb(255, 255, 255); */
+  cursor: pointer;
+}
+
+.sidecardInner {
+  background: linear-gradient(to bottom, #000000 10%);
+  height: 150px;
+  width: 150px;
+
+  border-left: 1px solid #ff416c;
+  border-top: 1px solid #ff4b2b;
+  border-right: 1px solid #ff416c;
+  border-bottom: 1px solid #ff4b2b;
+
+  border-radius: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  flex-shrink: 0;
+  transform-style: preserve-3d;
+  transition: transform 2s ease;
+  display: flex;
+  justify-content: flex-start;
+  visibility: visible;
+  opacity: 1;
+  margin-right: 10px;
+}
+
+.sidecardInner.rotate {
+  transform: rotateY(180deg);
+}
+
+.sidecardMain .sidecardBack {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: flex-end;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.sidecardInner .sidecardBack {
+  background: linear-gradient(to bottom, #000000 10%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+.sidecardInner.rotate .sidecardFront {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 0.5s, opacity 0.5s linear, transform 2s ease,
+    visibility 2s ease;
+}
+
+.sidecardInner.rotate .sidecardBack {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 0.5s linear, transform 2s ease,
+    visibility 2s ease;
+}
+
+.sidecardFront,
+.sidecardBack {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: all 2s ease;
+}
+
+.sidecardFrontTitle {
+  font-size: 18px;
+  font-weight: 650;
+  margin-left: 8px;
+  margin-top: 5px;
+
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sidecardBackTitle {
+  font-size: 14px;
+  font-weight: 650;
+  margin-right: 10px;
+  margin-top: 5px;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 10px;
+}
+
+.sidecardBackContent {
+}
+
+.sidecardFrontContent {
+}
+
+.textBody {
+  margin-top: -27px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #828282, #ffffff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.textBodyBack {
+  margin-top: -27px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background: linear-gradient(to right, #828282, #ffffff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 10px;
+}
+
+.bodyText {
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.bodyTextBack {
+  font-size: 11px;
+  font-weight: 400;
+  margin-top: 17px;
+}
+
+.statsCost {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 10px;
+  height: 30px;
+  position: absolute;
+  bottom: 10px;
+  margin-right: 15px;
+  width: 120px;
+}
+
+.textBodyBackCost {
+  /* margin-top: 13px; */
+  background: linear-gradient(to right, #ffee00, #ff8800);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.textBodyStats {
+  /* margin-top: 13px; */
+  background: linear-gradient(to right, #869ee5, #00b7ff, #0040ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.itemImage {
+  margin-left: 32.5px;
+  margin-top: 7.5px;
+}
+
+.statsFront {
+  display: flex;
+  flex-direction: column;
+  /* color: white; */
+  margin-left: 125px;
+  margin-top: -145px;
+}
+
+.magic {
+  margin-top: 17.5px;
+  background: linear-gradient(to right, #869ee5, #00b7ff, #0040ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 0px;
+}
