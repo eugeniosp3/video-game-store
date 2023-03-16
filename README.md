@@ -1,14 +1,14 @@
-Author: Gino P
-Tech: NextJS 
-Purpose: Learning and for fun
-Gaps: I still have gaps in my knowledge of CSS and responsive design. I am improving, but there is still work to be done. I am also learning quite a bit of JS but need to continue improving. My understanding of everything is increasing but I need to keep coding to fully understand more of the advanced React hooks.
+**Author**: Gino P
+<br>**Tech**: NextJS 
+<br>**Purpose**: Learning and for fun
+<br>**Gaps**: I still have gaps in my knowledge of CSS and responsive design. I am improving, but there is still work to be done. I am also learning quite a bit of JS but need to continue improving. My understanding of everything is increasing but I need to keep coding to fully understand more of the advanced React hooks.
 
-#DESCRIPTION 
+# DESCRIPTION 
 This website is an ecommerce attempt at a video game general store. By **double clicking** on the item, it will prompt you asking if you want to add it to cart. Then it will display how many items are in your cart and it will reduce the cost of the item from your amount in your coin bag. 
 ChatGPT 3.5 was used to create the descriptions, the cost, stats and item type in the json containing the items. 
 All images were obtained from freepik.com free video game assets.
 
-PREVIEW 
+# PREVIEW 
 ![image](https://user-images.githubusercontent.com/64187887/225635043-0fa73025-c50f-4229-8e97-d7f30862d441.png)
 
 
@@ -46,8 +46,8 @@ The item descriptions, prices, stats are included in the file itemData.js as a j
    ```
 
 # THINGS TO ADD 
-Interactive table that shows items in cart
-Buttons to remove items from cart, from this table
-Text letting the user know they need to double click somewhere to add the item to cart
-Fix the scrollbar on non Mac computers - it looks ugly
-Responsive to any viewport/resolution 
+<br>Interactive table that shows items in cart
+<br>Buttons to remove items from cart, from this table
+<br>Text letting the user know they need to double click somewhere to add the item to cart
+<br>Fix the scrollbar on non Mac computers - it looks ugly
+<br>Responsive to any viewport/resolution 
