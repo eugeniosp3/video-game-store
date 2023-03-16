@@ -7,22 +7,37 @@
 
 # DESCRIPTION 
 This website is an ecommerce attempt at a video game general store. By **double clicking** on the item, it will prompt you asking if you want to add it to cart. Then it will display how many items are in your cart and it will reduce the cost of the item from your amount in your coin bag. 
-ChatGPT 3.5 was used to create the descriptions, the cost, stats and item type in the json containing the items. 
+<b>ChatGPT 3.5</b> was used to create the descriptions, the cost, stats and item type in the json containing the items. 
 All images were obtained from freepik.com free video game assets. 
 
+<h3>Languages</h3>
 If you look at the breakdown of languages, you see there is a jupyter notebook. This is in the `video-game-store/public/itemPhotos/` directory and it was used to create a path I could put into the json without doing it manually. I left the code in case anyone is curious and wants to reuse it. It is written in Python.
+
+```python
+import os
+import pandas as pd
+allPics = pd.Series(os.listdir())
+allPics = allPics[allPics.str.contains('.png')]
+allPics.apply(lambda x: \
+             'os.getcwd()' + x)\
+             .to_csv("imagesPaths.csv", index=False)
+
+```
 
 ![image](https://user-images.githubusercontent.com/64187887/225639772-2e1efc77-34c1-42c1-a935-5418ef24c7e0.png)
 
 
-# PREVIEW 
+<h3>Preview</h3>
+<b>Live Site</b>: https://video-game-store-omega.vercel.app/
+
 ![image](https://user-images.githubusercontent.com/64187887/225635043-0fa73025-c50f-4229-8e97-d7f30862d441.png)
 
 
-# DATA
+<h3>Data</h3>
 The item descriptions, prices, stats are included in the file itemData.js as a json - https://github.com/eugeniosp3/video-game-store/blob/master/itemData.js
 
-```export const itemJSON = [
+```javascript
+export const itemJSON = [
     {
    "ItemName": "World Map",
    "imageName": "storePackBAsset 218.png",
@@ -52,9 +67,12 @@ The item descriptions, prices, stats are included in the file itemData.js as a j
    },...
    ```
 
-# THINGS TO ADD 
-<br>Interactive table that shows items in cart
-<br>Buttons to remove items from cart, from this table
-<br>Text letting the user know they need to double click somewhere to add the item to cart
-<br>Fix the scrollbar on non Mac computers - it looks ugly
-<br>Responsive to any viewport/resolution 
+<h3>Roadmap</h3>
+```
+1. Interactive table that shows items in cart
+2. <br>Buttons to remove items from cart, from this table
+3. <br>Text letting the user know they need to double click somewhere to add the item to cart
+4. <br>Fix the scrollbar on non Mac computers - it looks ugly
+5. <br>Responsive to any viewport/resolution 
+
+```
