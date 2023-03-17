@@ -31,4 +31,8 @@
   height: 725px;
   width: 500px;
   overflow: scroll;
+  max-height: 30px;
+}
+
+.tbody {
 }
