@@ -271,7 +271,7 @@ export const itemJSON = [
    "Path": "/itemPhotos/combatPackAsset 13.png"
    },
    {
-   "ItemName": "Lightning Potion",
+   "ItemName": "Lit-Nin Potion",
    "imageName": "storePackBAsset 212.png",
    "ItemType": "Potion",
    "Description": "A potion that, when ingested, grants the user the ability to call down lightning from the sky.",
@@ -572,7 +572,7 @@ export const itemJSON = [
    },
     
     {
-   "ItemName": "Amethyst Shield",
+   "ItemName": "Myth Shield",
    "imageName": "shieldsPackAsset 5.png",
    "ItemType": "Shield",
    "Description": "A sturdy shield made of amethyst, providing excellent protection against physical and magical attacks.",

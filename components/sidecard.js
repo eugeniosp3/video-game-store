@@ -5,6 +5,7 @@ import Image from 'next/image';
 function Sidecard({ items,  setcheckOutItems, setSubAmount }) {
   const [cartItems, setCartItems] = useState([]);
   const [subtotal, setSubtotal] = useState(0);
+  console.log(cartItems)
 
   const addToCart = (item) => {
     setCartItems([...cartItems, item]);
@@ -19,24 +20,12 @@ function Sidecard({ items,  setcheckOutItems, setSubAmount }) {
       <Card key={index} item={item} addToCart={addToCart} />
     ));
   };
-
+ 
   return (
     <div className={styles.sidecardMain}>
       {renderCards()}
       {/* Pop-up dialog */}
-      {cartItems.length > 0 && (
-        <div>
-          <h2>Cart Items:</h2>
-          <ul>
-            {cartItems.map((item, index) => (
-              <li key={index}>
-                {item.ItemName} ({item.Type}) - {item.Cost}g
-              </li>
-            ))}
-          </ul>
-          <h2>Subtotal: {subtotal}g</h2>
-        </div>
-      )}
+      
     </div>
   );
 }

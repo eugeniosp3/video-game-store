@@ -5,8 +5,7 @@ body {
   width: 100vh;
   background: linear-gradient(to bottom, #000000 70%, #2c0145);
   display: flex;
-  justify-content: center;
-  align-items: center;
+
   font-family: "Usual", sans-serif;
 }
 
@@ -14,24 +13,29 @@ body {
   width: 80%; /* adjust as needed */
   transition: margin-left 0.25s ease; /* added transition */
   display: flex;
-  align-items: center;
-}
 
-@media (max-width: 850px) {
-  .mainAppDiv {
-    margin-left: -1%; /* shift left by 20% */
-  }
+  align-items: center;
 }
 
 .searchBar {
   /* outline: 1px solid red; */
-  width: 315px;
+  width: 705px;
   height: 40px;
-  margin-top: 40px;
+  margin-top: -91px;
   margin-bottom: 10px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-left: 20px;
+}
+
+.dblClickTitle {
+  color: rgb(165, 164, 164);
+  margin-left: 90px;
+  margin-top: 27px;
+  white-space: nowrap;
+  font-size: 12px;
 }
 
 .searchInput {
@@ -50,9 +54,7 @@ body {
 .rightDiv {
   display: flex;
   flex-direction: column;
-  /* outline: 1px solid red; */
-  /* margin-top: -90px; */
-  margin-left: -30px;
+  margin-left: 130px;
   width: 600px;
   height: 955px;
 }
@@ -63,6 +65,9 @@ body {
   justify-content: flex-end;
   height: 75px;
   width: 500px;
+  margin-top: 25px;
+  margin-left: -110px;
+  margin-bottom: 3px;
 }
 
 .cartHolder {
@@ -74,7 +79,6 @@ body {
 .cartAmount {
   color: #826c9b;
   margin-top: 27.5px;
-  margin-left: 12px;
   font-size: 14px;
 }
 
@@ -119,4 +123,33 @@ body {
   /* outline: 1px solid red; */
   height: 255px;
   width: 500px;
+}
+
+.cartTable {
+  margin-top: -900px;
+  margin-left: -105px;
+  width: 500px;
+  height: 725px;
+  overflow: scroll;
+  border-bottom: 12px solid yellow;
+  border-top: 12px solid rgb(223, 223, 0);
+  border-right: 12px solid rgb(149, 149, 0);
+  border-left: 12px solid rgb(149, 149, 0);
+}
+
+.itemTableMain {
+}
+
+.subtotalAmt {
+  font-size: 20px;
+  color: white;
+  margin-left: 10px;
+}
+
+.subGold {
+  font-weight: 550;
+  background: linear-gradient(to bottom, #fffb00, #ffdd00, #ffa600);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
