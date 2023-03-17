@@ -6,7 +6,7 @@
 
 <h3>Preview</h3>
 <b>Live Site</b>: https://video-game-store-omega.vercel.app/
-
+<br>
 <img width="1652" alt="image" src="https://user-images.githubusercontent.com/64187887/225803543-3f14bfcd-b134-4719-9122-1e1dfc00b8d3.png">
 
 # DESCRIPTION 
