@@ -70,7 +70,7 @@ export const itemJSON = [
 <br>5. Responsive to any viewport/resolution 
 
 <h3>Changes Implemented</h3>
-<br>1. DONE -  Interactive table that shows items in cart - added Thu Mar 16 2023
+1. DONE -  Interactive table that shows items in cart - added Thu Mar 16 2023
 <br>2. DONE - Buttons to remove items from cart, from this table - added Thu Mar 16 2023
 <br>3. DONE - Text letting the user know they need to double click somewhere to add the item to cart - added Thu Mar 16 2023
 <br>4. DONE - Fix the scrollbar on non Mac computers - it looks ugly - added Thu Mar 16 2023
