@@ -152,4 +152,39 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+} /* Hide scrollbar when not scrolling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background: rgba(255, 255, 255, 0);
+}
+
+/* Show scrollbar when scrolling */
+::-webkit-scrollbar-thumb:vertical {
+  background: rgba(84, 80, 80, 0.3);
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: background 0.3s ease-out;
+}
+
+/* Darken scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:vertical:hover {
+  background: rgba(71, 67, 67, 0.5);
+}
+
+/* Rounded corners for scrollbar track */
+::-webkit-scrollbar-track:vertical {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0);
+}
+
+/* Hide scrollbar thumb when not hovering */
+::-webkit-scrollbar-thumb:vertical {
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+::-webkit-scrollbar-thumb:vertical:hover {
+  opacity: 1;
 }
