@@ -7,7 +7,7 @@
 <h3>Preview</h3>
 <b>Live Site</b>: https://video-game-store-omega.vercel.app/
 
-![image](https://user-images.githubusercontent.com/64187887/225635043-0fa73025-c50f-4229-8e97-d7f30862d441.png)
+<img width="1652" alt="image" src="https://user-images.githubusercontent.com/64187887/225803543-3f14bfcd-b134-4719-9122-1e1dfc00b8d3.png">
 
 # DESCRIPTION 
 This website is an ecommerce attempt at a video game general store. By **double clicking** on the item, it will prompt you asking if you want to add it to cart. Then it will display how many items are in your cart and it will reduce the cost of the item from your amount in your coin bag. 
