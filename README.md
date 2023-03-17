@@ -28,8 +28,7 @@ allPics.apply(lambda x: \
 
 ```
 
-![image](https://user-images.githubusercontent.com/64187887/225639772-2e1efc77-34c1-42c1-a935-5418ef24c7e0.png)
-
+<img width="351" alt="image" src="https://user-images.githubusercontent.com/64187887/225808005-3901d554-b055-4c6e-b3a5-708b2d18619a.png">
 
 
 <h3>Data</h3>
