@@ -1,33 +1,57 @@
 html,
 body {
-  position: fixed;
-  height: 100vh;
-  width: 100vh;
+  height: 100%;
+  width: 100%;
   background: linear-gradient(to bottom, #000000 70%, #2c0145);
-  display: flex;
-
   font-family: "Usual", sans-serif;
+  overflow: hidden;
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+#__next {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 .mainAppDiv {
-  width: 80%; /* adjust as needed */
-  transition: margin-left 0.25s ease; /* added transition */
+  height: 100%;
+  width: 100%; /* adjust as needed */
   display: flex;
-
-  align-items: center;
+  transition: margin-left 0.25s ease; /* added transition */
+  overflow: hidden;
+  gap: 10px;
 }
+
+.leftDiv {
+  display: flex;
+  height: 100%;
+  overflow: auto;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rightDiv {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+  overflow: auto;
+}
+
+
 
 .searchBar {
   /* outline: 1px solid red; */
-  width: 705px;
   height: 40px;
-  margin-top: -91px;
-  margin-bottom: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-left: 20px;
 }
 
 .dblClickTitle {
@@ -51,41 +75,27 @@ body {
   letter-spacing: 2px;
 }
 
-.rightDiv {
-  display: flex;
-  flex-direction: column;
-  margin-left: 130px;
-  width: 600px;
-  height: 955px;
-}
 
 .cart {
   display: flex;
   /* outline: 1px solid red; */
   justify-content: flex-end;
   height: 75px;
-  width: 500px;
-  margin-top: 25px;
-  margin-left: -110px;
-  margin-bottom: 3px;
+  align-items: center;
+  gap: 10px;
+  color: #826c9b;
+  margin: 25px 10px 3px 0;
 }
 
-.cartHolder {
-  display: flex;
-  flex-direction: row;
+.cart > div {
   cursor: crosshair;
 }
 
-.cartAmount {
-  color: #826c9b;
-  margin-top: 27.5px;
-  font-size: 14px;
-}
-
-.cartAmount:hover {
+.cart > div:hover {
   color: #06d560;
   height: 20px;
 }
+
 
 .wallet {
   display: flex;
@@ -126,11 +136,7 @@ body {
 }
 
 .cartTable {
-  margin-top: -900px;
-  margin-left: -105px;
-  width: 500px;
-  height: 725px;
-  overflow: scroll;
+  height: 100%;
   border-bottom: 12px solid yellow;
   border-top: 12px solid rgb(223, 223, 0);
   border-right: 12px solid rgb(149, 149, 0);

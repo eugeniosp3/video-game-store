@@ -29,9 +29,9 @@
   border-radius: 10px;
   overflow-y: scroll;
   height: 725px;
-  width: 500px;
   overflow: scroll;
   max-height: 30px;
+  width: 100%;
 }
 
 .tbody {

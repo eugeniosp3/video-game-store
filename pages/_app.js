@@ -41,7 +41,7 @@ export default function App({ Component, pageProps }) {
 
         <div className="searchBar">
 
-          <input type="text" class="searchInput" placeholder="Search" onChange={handleSearchInputChange} />
+          <input type="text" className="searchInput" placeholder="Search" onChange={handleSearchInputChange} />
           <p className="dblClickTitle">Double-click inventory or table to add/remove item.</p>
 
         </div>
@@ -49,17 +49,11 @@ export default function App({ Component, pageProps }) {
       </div>
       <div className="rightDiv">
         <div className="cart">
-          <div className="cartHolder">
-           
-            <p className="cartAmount">
-              Items <b>({checkoutItems.length})</b>
-            </p>
+          <div>
+            Items <b>({checkoutItems.length})</b>
           </div>
-          <div className="wallet">
-            {/* > */}
-            <p className="coinage">
-              Coin Bag <b>({500 - subAmount})</b>
-            </p>
+          <div>
+            Coin Bag <b>({500 - subAmount})</b>
           </div>
         </div>
         <div className="itemPresentation"></div>
