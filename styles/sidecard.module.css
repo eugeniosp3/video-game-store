@@ -85,9 +85,7 @@
 }
 
 .sidecardFront,
-.sidecardBack {  
-  border-radius: 10px;
-
+.sidecardBack {
   position: absolute;
   top: 0;
   left: 0;
@@ -95,6 +93,7 @@
   height: 100%;
   backface-visibility: hidden;
   transition: all .2s ease;
+  border-radius: 10px;
 }
 .sidecardFront:hover{
   background: linear-gradient(to bottom, #0040ff, #3969fa);
