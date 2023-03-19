@@ -1,0 +1,7 @@
+*.js
+*.json
+node_modules
+components
+.next
+pages
+public
