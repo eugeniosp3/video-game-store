@@ -1,196 +1,198 @@
 html,
 body {
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(to bottom, #000000 70%, #2c0145);
-  font-family: "Usual", sans-serif;
-  overflow: hidden;
-  margin: 0;
+height: 100%;
+width: 100%;
+background: linear-gradient(to bottom, #000000 70%, #2c0145);
+font-family: "Usual", sans-serif;
+overflow: hidden;
+margin: 0;
 }
 
 div {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 
 #__next {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
+height: 100%;
+width: 100%;
+overflow: hidden;
 }
 
 .mainAppDiv {
-  height: 100%;
-  width: 100%; /* adjust as needed */
-  display: flex;
-  transition: margin-left 0.25s ease; /* added transition */
-  overflow: hidden;
-  gap: 10px;
+height: 100%;
+width: 100%; /* adjust as needed */
+display: flex;
+transition: margin-left 0.25s ease; /* added transition */
+overflow: hidden;
+gap: 10px;
 }
 
 .leftDiv {
-  display: flex;
-  height: 100%;
-  overflow: auto;
-  flex-direction: column;
-  gap: 10px;
+display: flex;
+height: 100%;
+overflow: auto;
+flex-direction: column;
+gap: 10px;
 }
 
 .rightDiv {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  height: 100%;
-  overflow: auto;
+display: flex;
+flex-direction: column;
+flex: 1;
+height: 100%;
+overflow: auto;
 }
 
 
 
 .searchBar {
-  /* outline: 1px solid red; */
-  height: 40px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+/* outline: 1px solid red; */
+height: 40px;
+display: flex;
+margin: 1em 0 0 1.4em;
+flex-direction: row;
+justify-content: left;
+align-items: center;
 }
 
 .dblClickTitle {
-  color: rgb(165, 164, 164);
-  margin-left: 90px;
-  margin-top: 27px;
-  white-space: nowrap;
-  font-size: 12px;
+color: rgb(165, 164, 164);
+margin-left: 90px;
+margin-top: 27px;
+white-space: nowrap;
+font-size: 12px;
 }
 
 .searchInput {
-  width: 300px;
-  height: 30px;
-  border-radius: 10px;
-  border: transparent;
-  border-bottom: 1px solid #ff416c;
-  background-color: transparent;
-  color: #ffffff;
-  padding-left: 20px;
-  font-size: 16px;
-  letter-spacing: 2px;
+width: 300px;
+height: 30px;
+border-radius: 10px;
+border: transparent;
+border-bottom: 1px solid #ff416c;
+background-color: transparent;
+color: #ffffff;
+padding-left: 20px;
+font-size: 16px;
+letter-spacing: 2px;
 }
 
-
 .cart {
-  display: flex;
-  /* outline: 1px solid red; */
-  justify-content: flex-end;
-  height: 75px;
-  align-items: center;
-  gap: 10px;
-  color: #826c9b;
-  margin: 25px 10px 3px 0;
+display: flex;
+/* outline: 1px solid red; */
+justify-content: flex-end;
+height: 75px;
+align-items: center;
+gap: 10px;
+color: #826c9b;
+margin: 25px 10px 3px 0;
 }
 
 .cart > div {
-  cursor: crosshair;
+cursor: crosshair;
 }
 
 .cart > div:hover {
-  color: #06d560;
-  height: 20px;
+color: #06d560;
+height: 20px;
 }
-
 
 .wallet {
-  display: flex;
+display: flex;
 }
 .coinImage {
-  margin-top: 18px;
+margin-top: 18px;
 }
 
 .coinage {
-  color: #83699f;
-  margin-top: 27.5px;
-  margin-left: 12px;
-  font-size: 14px;
-  cursor: crosshair;
+color: #83699f;
+margin-top: 27.5px;
+margin-left: 12px;
+font-size: 14px;
+cursor: crosshair;
 }
 
 .coinage:hover {
-  color: #d5af06;
-  height: 20px;
+color: #d5af06;
+height: 20px;
 }
+
 
 .itemPresentation {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  /* outline: 1px solid red; */
-  height: 625px;
-  width: 500px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+outline: 1px solid red;
+height: 625px;
+width: 500px;
 }
+
 
 .cartControls {
-  display: flex;
-  flex-direction: column;
-  /* outline: 1px solid red; */
-  height: 255px;
-  width: 500px;
+display: flex;
+flex-direction: column;
+outline: 1px solid red;
+height: 255px;
+width: 500px;
 }
 
+
 .cartTable {
-  height: 100%;
-  border-bottom: 12px solid yellow;
-  border-top: 12px solid rgb(223, 223, 0);
-  border-right: 12px solid rgb(149, 149, 0);
-  border-left: 12px solid rgb(149, 149, 0);
+height: 100%;
+border-bottom: 12px solid yellow;
+border-top: 12px solid rgb(223, 223, 0);
+border-right: 12px solid rgb(149, 149, 0);
+border-left: 12px solid rgb(149, 149, 0);
 }
 
 .itemTableMain {
 }
 
 .subtotalAmt {
-  font-size: 20px;
-  color: white;
-  margin-left: 10px;
+font-size: 20px;
+color: white;
+margin-left: 10px;
 }
 
 .subGold {
-  font-weight: 550;
-  background: linear-gradient(to bottom, #fffb00, #ffdd00, #ffa600);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+font-weight: 550;
+background: linear-gradient(to bottom, #fffb00, #ffdd00, #ffa600);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
 } /* Hide scrollbar when not scrolling */
 ::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-  background: rgba(255, 255, 255, 0);
+width: 8px;
+height: 8px;
+background: rgba(255, 255, 255, 0);
 }
 
 /* Show scrollbar when scrolling */
 ::-webkit-scrollbar-thumb:vertical {
-  background: rgba(84, 80, 80, 0.3);
-  border-radius: 10px;
-  border: 2px solid rgba(0, 0, 0, 0);
-  transition: background 0.3s ease-out;
+background: rgba(84, 80, 80, 0.3);
+border-radius: 10px;
+border: 2px solid rgba(0, 0, 0, 0);
+transition: background 0.3s ease-out;
 }
 
 /* Darken scrollbar thumb on hover */
 ::-webkit-scrollbar-thumb:vertical:hover {
-  background: rgba(71, 67, 67, 0.5);
+background: rgba(71, 67, 67, 0.5);
 }
 
 /* Rounded corners for scrollbar track */
 ::-webkit-scrollbar-track:vertical {
-  background: rgba(0, 0, 0, 0);
-  border-radius: 10px;
-  border: 2px solid rgba(0, 0, 0, 0);
+background: rgba(0, 0, 0, 0);
+border-radius: 10px;
+border: 2px solid rgba(0, 0, 0, 0);
 }
 
 /* Hide scrollbar thumb when not hovering */
 ::-webkit-scrollbar-thumb:vertical {
-  opacity: 0;
-  transition: opacity 0.3s ease-out;
+opacity: 0;
+transition: opacity 0.3s ease-out;
 }
 
 ::-webkit-scrollbar-thumb:vertical:hover {
-  opacity: 1;
+opacity: 1;
 }
