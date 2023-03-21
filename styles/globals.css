@@ -84,7 +84,7 @@ height: 75px;
 align-items: center;
 gap: 10px;
 color: #826c9b;
-margin: 25px 10px 3px 0;
+margin: 0 2em 0;
 }
 
 .cart > div {
@@ -116,7 +116,7 @@ color: #d5af06;
 height: 20px;
 }
 
-
+/* 
 .itemPresentation {
 display: flex;
 flex-direction: row;
@@ -126,8 +126,8 @@ outline: 1px solid red;
 height: 625px;
 width: 500px;
 }
-
-
+ */
+/*  
 .cartControls {
 display: flex;
 flex-direction: column;
@@ -135,19 +135,20 @@ outline: 1px solid red;
 height: 255px;
 width: 500px;
 }
-
+*/
 
 .cartTable {
 height: 100%;
+overflow-y: scroll;
 border-bottom: 12px solid yellow;
 border-top: 12px solid rgb(223, 223, 0);
 border-right: 12px solid rgb(149, 149, 0);
 border-left: 12px solid rgb(149, 149, 0);
 }
-
+/* 
 .itemTableMain {
 }
-
+*/
 .subtotalAmt {
 font-size: 20px;
 color: white;
