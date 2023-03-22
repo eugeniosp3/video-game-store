@@ -116,25 +116,26 @@ div {
   color: #d5af06;
   height: 20px;
 }
-
+/* 
 .itemPresentation {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
   height: 625px;
   width: 500px;
 }
-
+*/
+/* 
 .cartControls {
   display: flex;
   flex-direction: column;
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
   height: 255px;
   width: 500px;
 }
-
+*/
 .cartTable {
   height: 100%;
   border-bottom: 12px solid yellow;
