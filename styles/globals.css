@@ -50,7 +50,8 @@ div {
   height: 40px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  margin: 1em 0 0 1.4em;
+  justify-content: left;
   align-items: center;
 }
 
@@ -116,26 +117,29 @@ div {
   color: #d5af06;
   height: 20px;
 }
-
+/* 
 .itemPresentation {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
   height: 625px;
   width: 500px;
 }
-
+*/
+/* 
 .cartControls {
   display: flex;
   flex-direction: column;
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
   height: 255px;
   width: 500px;
 }
-
+*/
 .cartTable {
+  overflow: scroll;
+  max-height: 100%;
   height: 100%;
   border-bottom: 12px solid yellow;
   border-top: 12px solid rgb(223, 223, 0);
