@@ -50,7 +50,8 @@ div {
   height: 40px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  margin: 1em 0 0 1.4em;
+  justify-content: left;
   align-items: center;
 }
 
