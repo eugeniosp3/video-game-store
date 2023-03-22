@@ -137,6 +137,8 @@ div {
 }
 */
 .cartTable {
+  overflow: scroll;
+  max-height: 100%;
   height: 100%;
   border-bottom: 12px solid yellow;
   border-top: 12px solid rgb(223, 223, 0);
